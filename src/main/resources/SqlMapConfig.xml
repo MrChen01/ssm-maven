@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--配置分页插件 -->
+    <!--<plugins>-->
+    <!--&lt;!&ndash; com.github.pagehelper为PageHelper类所在包名 &ndash;&gt;-->
+    <!--<plugin interceptor="com.github.pagehelper.PageHelper">-->
+    <!--&lt;!&ndash;必选项 &ndash;&gt;-->
+    <!--<property name="dialect" value="mysql" />-->
+
+    <!--&lt;!&ndash; 3.3.0版本可用 - 分页参数合理化，默认false禁用 &ndash;&gt;-->
+    <!--&lt;!&ndash; 启用合理化时，如果pageNum<1会查询第一页，如果pageNum>pages会查询最后一页 &ndash;&gt;-->
+    <!--&lt;!&ndash; 禁用合理化时，如果pageNum<1或pageNum>pages会返回空数据 &ndash;&gt;-->
+    <!--<property name="reasonable" value="true" />-->
+    <!--</plugin>-->
+    <!--</plugins>-->
+
+    <!-- 别名配置 -->
+    <typeAliases>
+        <!-- 批量配置别名：指定批量定义别名的类包，别名为类名（首字母大小写都可） -->
+        <package name="com.company.ssmmaven.model"/>
+    </typeAliases>
+
+
+    <!--<mappers>-->
+        <!--&lt;!&ndash; 批量加载映射文件 &ndash;&gt;-->
+        <!--<package name="com.company.ssmmaven.dao"/>-->
+    <!--</mappers>-->
+
+</configuration>
